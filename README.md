@@ -1,3 +1,26 @@
+## Activating the Virtual Environment
+
+Before running the application, activate the Python virtual environment:
+
+### On Linux/macOS:
+
+```sh
+source hex_mapper_env/bin/activate
+```
+
+### On Windows (cmd):
+
+```cmd
+hex_mapper_env\Scripts\activate.bat
+```
+
+### On Windows (PowerShell):
+
+```powershell
+.\hex_mapper_env\Scripts\Activate.ps1
+```
+
+After activation, you can run the application as usual.
 # Hex Number Mapper
 
 A Python GUI application that performs linear interpolation mapping of hexadecimal numbers from 8-bit to 10-bit to 16-bit representations.
